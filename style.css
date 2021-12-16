@@ -29,6 +29,30 @@ p {
     position: relative;
 }
 
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-txt {
+    display: flex;
+    flex-direction: row;
+}
+
+.infos-titre {
+    font-weight: 600;
+    color: #111111;
+    width: 100px;
+}
+
+.titre-bloc {
+    margin:0;
+    padding:0;
+    font-weight: 600;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+
 /* FIN PERSONALISATION */
 
 
@@ -1106,7 +1130,7 @@ h4 {
     .img-responsive {
         margin-left:auto;
         margin-right: auto;
-        max-width: 200px;
+        max-width: 100%;
         height: auto;
     }
 
@@ -1121,6 +1145,17 @@ h4 {
         padding:25px 5px 25px 5px;
     }
 
+    .bloc-contact {
+        padding:0 15px 10px 15px;
+    }
+
+    .form-contact {
+        padding:10px 20px 0 20px;
+    }
+
+    .infos {
+        padding:10px 25px 10px 25px;
+    }
 }
 
 @media (max-width: 400px) {
