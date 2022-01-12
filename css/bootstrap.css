@@ -294,7 +294,7 @@ th {
         border-top-color: #000 !important
     }
     .label {
-        border: 1px solid #000
+        border: 1px solid #000;
     }
     .table {
         border-collapse: collapse !important
@@ -5857,7 +5857,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     font-size: 75%;
     font-weight: 700;
     line-height: 1;
-    color: #fff;
+    color: #000;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;

@@ -47,6 +47,7 @@ p {
 }
 
 .titre-bloc {
+    color:#000!important;
     margin:0;
     padding:0;
     font-weight: 600;
@@ -717,7 +718,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000!important;
 }
 
 .container {
